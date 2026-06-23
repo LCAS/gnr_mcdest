@@ -1,0 +1,2 @@
+# Git should not be tracking such large binary files
+*.pth
