@@ -11,7 +11,9 @@ This repository contains the code used in our work.
 
 The paper is available on arXiv, and on the [University of Lincoln Figshare Site](https://repository.lincoln.ac.uk/articles/conference_contribution/Getting_the_Numbers_Right_Modelling_Multi-Class_Object_Counting_in_Dense_and_Varied_Scenes/32025327).
 
+
 ## Datasets
+
 
 - [Hicks Biodiversity Dataset](https://doi.org/10.5061/dryad.63xsj3v34). Gathered for biodiversity object detection, by Damien Hicks et al. in the *Ecological Solutions and Evidence* 2021 article *[Deep learning object detection to estimate the nectar sugar mass of flowering vegetation](https://doi.org/10.1002/2688-8319.12099)*.
 
@@ -20,3 +22,10 @@ The paper is available on arXiv, and on the [University of Lincoln Figshare Site
 - [iSAID](https://captain-whu.github.io/iSAID/), a remote sensing segmentation dataset using the images of [DOTA-V1.0](https://captain-whu.github.io/DOTA/index.html).
 
 You must download the datasets, and investigate the scripts within [`convert_datasets`](./convert_datasets/). The scripts are seeded, so will produce the same datasets used in this paper. Due to no suitable test/challenge set for iSAID and Hicks et al., those datasets are shuffled to a custom split. Ensure no seeds are changed.
+
+
+## Pre-trained Weights
+
+The weights for the backbone must be downloaded from the [Twins GitHub Repo](https://github.com/Meituan-AutoML/Twins).
+
+For now, please email the first author for model weights, although these will eventually be uploaded somewhere open and permanent.
