@@ -5,7 +5,7 @@ Density map estimation enables accurate object counting in heavily occluded, and
 This repository contains the code used in our work.
 
 > [!NOTE]
-> This work was supported by the UKRI AI Centre for Doctoral Training in Sustainable Understandable agri-food Systems Transformed by Artificial INtelligence (SUSTAIN) [grant reference: EP/Y03063X/1]. 
+> This work was supported by the UKRI AI Centre for Doctoral Training in Sustainable Understandable agri-food Systems Transformed by Artificial INtelligence ([SUSTAIN](https://www.sustain-cdt.ai/)) [grant reference: EP/Y03063X/1]. 
 > 
 > Published as part of the International Joint Conference on Computational Intelligence at IEEE World Congress of Computational Intelligence 2026.
 

@@ -21,7 +21,6 @@ from .datasets.visdrone10_dataset import VisDrone10Dataset
 from .datasets.isaid_dataset import ISAIDDataset
 from .gpu_metric_tracker import GPUMetrics
 from .auto_weighted_loss import AutomaticWeightedLoss
-from .regional_gau_loss import RegionalGauLoss
 
 
 import matplotlib
@@ -136,8 +135,7 @@ class TrainingApplication():
         # Keep track of validation metrics to save new bests as they come
         self.validation_results = []
 
-        # self.loss_func_den      = nn.MSELoss(reduction="sum").cuda()
-        self.loss_func_den      = RegionalGauLoss(reduction="sum", function="mse", use_awl=False).cuda()
+        self.loss_func_den      = nn.MSELoss(reduction="sum").cuda()
         self.loss_func_mask     = nn.CrossEntropyLoss().cuda()
         # self.auto_weighted_loss = AutomaticWeightedLoss(2)
 
